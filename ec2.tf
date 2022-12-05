@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "ec2_demo" {
   ami           = "ami-079b5e5b3971bd10d"
-  instance_type = "t2.samll"
+  instance_type = "t2.small"
   tags = {
     Name = "Demo My EC2 Terraform Instance"
   }
